@@ -1,0 +1,454 @@
+/* colors */
+.bgc-pink {
+    background: #EC268F;
+}
+
+.bgc-white {
+    background: #ffffff;
+}
+
+.bgc-blue {
+    background: #6BC5D2;
+}
+
+.bgc-black {
+    background: #202439;
+}
+
+.color-pink {
+    color: #EC268F;
+}
+
+.color-blue {
+    color: #6BC5D2;
+}
+
+.color-black {
+    color: #202439;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+
+body {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #F3F4F7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* margin: 0; */
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* container */
+.container {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 85px;
+}
+
+
+
+/* header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-logo {
+    flex: 0 0 25%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* phone */
+.header-phone {
+    flex: 0 0 25%;
+    text-align: right;
+}
+
+.phone-link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.phone-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.phone-number {}
+
+.phone-link:hover {
+    transform: scale(1.1);
+}
+
+/* nav */
+.nav {
+    flex: 0 0 50%;
+    text-align: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    transition: transform 0.3s ease;
+}
+
+.nav-link {}
+
+.nav-item:hover {
+    transform: scale(1.1);
+}
+
+
+/* hero */
+.hero {
+    padding-top: 100px;
+}
+
+.hero-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 15px;
+    width: 100%;
+    max-width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hero-info {
+    flex: 0 0 50%;
+}
+
+.hero-title {
+    line-height: 1.2;
+}
+
+.hero-subtitle {}
+
+.hero-button {
+    background: #EC268F;
+}
+
+.hero-images {
+    flex: 0 0 50%;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+
+
+/* services */
+.services-container {}
+
+.services-title {}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.services-item {
+    flex: 1;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services-item:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.services-item-title {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.services-item-text {
+    padding: 15px;
+}
+
+.services-item-details {
+    padding-left: 15px;
+}
+
+
+/* tariffs */
+.tariffs {}
+
+.tariffs-container {}
+
+.tariffs-title {}
+
+.tariffs-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.tariffs-item {
+    flex: 1;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.tariffs-name {}
+
+.tariffs-description {}
+
+.tariffs-price {}
+
+.tariffs-button {}
+
+
+
+/* schedule */
+.schedule {}
+
+.schedule-container {}
+
+.schedule-title {}
+
+.schedule-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.schedule-item {
+    flex: 1;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.schedule-item-name {}
+
+.schedule-item-time {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-description {}
+
+
+
+/* team */
+.team {}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.team-info {
+    border-radius: 10px;
+    padding: 15px;
+    flex: 1;
+}
+
+.team-title {}
+
+.team-description {}
+
+.team-panorama {
+    flex: 1;
+
+}
+
+.panorama {
+    width: 100%;
+}
+
+.team-trainers {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+
+}
+
+.trainer-card {
+    flex: 1;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trainer-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.trainer-photo {
+    width: 100%;
+}
+
+.trainer-name {}
+
+.trainer-description {}
+
+.trainer-details {}
+
+
+/* news */
+.news-container {}
+
+.news-title {}
+
+.news-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.news-item {
+    flex: 1;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.news-item-title {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.news-item-description {
+    padding: 15px;
+}
+.news-item-date {
+    padding: 15px;
+}
+
+.news-item-details {
+    padding-left: 15px;
+}
+.news-item-img {
+    width: 100%;
+    padding: 15px;
+}
+
+
+/* gallery */
+.gallery {}
+.gallery-container {}
+.gallery-title {}
+.gallery-grid {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-content: space-between;
+}
+.gallery-image {
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery-image:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+
+
+
+/* contacts */
+/* .contacts {}
+
+.contacts__inner {
+    display: flex;
+    gap: 2%;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.contacts__info {
+    flex: 1;
+}
+
+.map {
+    flex: 1;
+    text-align: center;
+    height: 300px;
+    overflow: hidden;
+} */
+
+
+
+/* button */
+.btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
