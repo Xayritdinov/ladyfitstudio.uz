@@ -435,25 +435,22 @@ ul {
     justify-content: space-between;
 }
 
-.gallery-image-link {}
-
 .gallery-image {
     border-radius: 10px;
     width: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    /* Подгоняем высоту под ширину (квадрат) */
     aspect-ratio: 3 / 2;
     object-fit: cover;
 }
 
-.gallery-image:hover {
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
-}
-/* Скрываем слайдер на компьютере */
-.slider-container {
+.slider-btn {
     display: none;
 }
+
+/* .gallery-image:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+} */
+
 
 
 /* contacts */
@@ -553,6 +550,7 @@ ul {
     gap: 15px;
     justify-content: center;
 }
+
 .qr-code {
     width: 50%;
 }
@@ -626,9 +624,9 @@ ul {
         max-width: none;
     }
 
-    .gallery-grid {
+    /* .gallery-grid {
         grid-template-columns: repeat(1, 1fr);
-    }
+    } */
 
     .header-burger-btn {
         display: block;
@@ -689,18 +687,17 @@ ul {
 
 /* Стили для мобильных устройств */
 @media screen and (max-width: 768px) {
-    /* Показываем слайдер только на мобильных устройствах */
-    .slider-container {
+
+    .gallery-container {
         display: block;
         position: relative;
-        /* width: 80%; */
-        margin: auto;
         overflow: hidden;
     }
 
-    .slider {
+    .gallery-grid {
         display: flex;
         transition: transform 0.5s ease;
+        gap: 0px;
     }
 
     .gallery-image {
@@ -708,40 +705,39 @@ ul {
         height: auto;
     }
 
-    .prev, .next {
+    .slider-btn {
         position: absolute;
-        top: 50%;
+        top: 60%;
+        left: 0;
+        width: 100%;
         transform: translateY(-50%);
-        background-color: rgba(12, 161, 177, 0.5);
+        display: flex;
+        justify-content: space-between;
+        pointer-events: none;
+    }
+
+    .prev,
+    .next {
+        pointer-events: all;
+        background-color: rgba(12, 161, 177, 0.6);
         color: white;
         border: none;
-        padding: 10px;
+        border-radius: 50%;
         cursor: pointer;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
     }
 
     .prev {
-        left: 10px;
+        margin-left: 10px;
     }
 
     .next {
-        right: 10px;
+        margin-right: 10px;
     }
 
-    /* Сетка изображений скрыта на мобильных устройствах */
-    .gallery-grid {
-        display: none;
-    }
-
-
-    /* Акции слайдер */
-    .promotions-list {
-        display: flex;
-        overflow: hidden;
-        width: 100%;
-    }
-
-    .promotions-item {
-        min-width: 100%;
-        flex-shrink: 0;
-    }
 }
