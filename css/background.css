@@ -1,0 +1,35 @@
+/* background */
+.bgf-one {
+    background-image: url('../img/fon1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgf-two {
+    background-image: url('../img/fon2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgf-three {
+    background-image: url('../img/fon3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgf-four {
+    background-image: url('../img/fon4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgf-five {
+    background-image: url('../img/fon7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

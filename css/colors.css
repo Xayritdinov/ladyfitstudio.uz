@@ -1,0 +1,36 @@
+/* colors */
+.bgc-one {
+    /* background: #EC268F; */
+    background: #ED692A;
+}
+
+.bgc-two {
+    background: #0ca1b1;
+    /* background: #6BC5D2; */
+}
+
+.bgc-three {
+    background: #202439;
+}
+
+.bgc-four {
+    background: #ffffff;
+}
+
+.color-one {
+    color: #ED692A;
+    /* color: #EC268F; */
+}
+
+.color-two {
+    color: #0ca1b1;
+    /* color: #6BC5D2; */
+}
+
+.color-three {
+    color: #202439;
+}
+
+.color-four {
+    color: #ffffff;
+}

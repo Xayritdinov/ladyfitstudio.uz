@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LadyFitStudio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/background.css">
 </head>
 
 <body>
@@ -18,14 +20,14 @@
                     <span class="bgc-one"></span>
                 </button>
             </div>
-            <a class="header-logo color-one" href="#">LADY FIT STUDIO</a>
+            <a class="header-logo color-one" id="logo" href="#">LADY FIT STUDIO</a>
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a class="nav-link color-one" href="#services">Услуги</a></li>
                     <li class="nav-item"><a class="nav-link color-one" href="#tariffs">Тарифы</a></li>
                     <li class="nav-item"><a class="nav-link color-one" href="#schedule">Расписание</a></li>
                     <li class="nav-item"><a class="nav-link color-one" href="#team">Команда</a></li>
-                    <li class="nav-item"><a class="nav-link color-one" href="#news">Новости</a></li>
+                    <li class="nav-item"><a class="nav-link color-one" href="#promotions ">Акции</a></li>
                     <li class="nav-item"><a class="nav-link color-one" href="#gallery">Галерея</a></li>
                     <li class="nav-item"><a class="nav-link color-one" href="#contacts">Контакты</a></li>
                 </ul>
@@ -44,16 +46,18 @@
             <div class="hero-container">
                 <div class="hero-info">
                     <h1 class="hero-title">
-                        Получите тело своей мечты, занимаясь в нашем клубе по удобной программе
+                        Женская фитнес-студия!
                     </h1>
                     <p class="hero-subtitle">
-                        Приглашаем в наш фитнес-клуб, где каждый желающий может привести себя в
-                        спортивную форму самостоятельно или с помощью наших высококвалифицированных тренеров
+                        Приглашаем вас в нашу фитнес-студию, созданную специально для женщин! Здесь каждая сможет
+                        привести себя в отличную форму с помощью опытных тренеров и разнообразных программ тренировок.
+                        Тренируйтесь в комфортной обстановке, без посторонних взглядов, и наслаждайтесь процессом
+                        преображения!
                     </p>
-                    <button class="hero-button btn bgc-one">Записаться</button>
+                    <button class="hero-button btn bgc-two">Записаться</button>
                 </div>
                 <div class="hero-images">
-                    <img class="hero-image" src="./img/intro_img1.JPG" alt="Image 1">
+                    <img class="hero-image" src="./img/welcome.jpg" alt="Image 1">
                 </div>
             </div>
         </div>
@@ -66,35 +70,34 @@
                 <div class="services-list">
                     <div class="services-item bgc-four">
                         <h3 class="services-item-title bgc-one color-four">
-                            Индивидуальные программы
+                            Индивидуальные направления
                         </h3>
                         <p class="services-item-text">
-                            Приглашаем в наш фитнес-клуб, где каждый желающий может
-                            привести себя в спортивную форму самостоятельно или с помощью наш
+                            Максимальное внимание к результату! Индивидуальная программа учитывающая ваш уровень
+                            подготовки и особенности организма.
                         </p>
                         <a class="services-item-details color-one" href="">Подробнее ></a>
                     </div>
                     <div class="services-item bgc-four">
                         <h3 class="services-item-title bgc-three color-four">
-                            Групповые программы
+                            Групповые направления
                         </h3>
                         <p class="services-item-text">
-                            Приглашаем в наш фитнес-клуб, где каждый желающий может
-                            привести себя в спортивную
+                            Тренируйтесь в дружной атмосфере и вместе достигайте желаемых результатов! Не
+                            останавливайтесь и успех не заставит себя ждать!
                         </p>
                         <a class="services-item-details color-one" href="">Подробнее ></a>
                     </div>
                     <div class="services-item bgc-four">
                         <h3 class="services-item-title bgc-two color-four">
-                            Детская гимнастика
+                            Детские направления
                         </h3>
                         <p class="services-item-text">
-                            Приглашаем в наш фитнес-клуб, где каждый желающий может
-                            привести себя в спортивную форму самостоятельно или с помощью наш
+                            Наши программы, разработаные специально для детей, помогут укрепить здоровье, развить
+                            физические навыки научиться работать в команде.
                         </p>
                         <a class="services-item-details color-one" href="">Подробнее ></a>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -103,28 +106,28 @@
     <section class="tariffs" id="tariffs">
         <div class="container">
             <div class="tariffs-container">
-                <h2 class="tariffs-title">Стоимость услуг</h2>
+                <h2 class="tariffs-title">Стоимость услуг и тарифы</h2>
                 <div class="tariffs-list">
                     <div class="tariffs-item bgc-four">
-                        <h3 class="tariffs-name color-one">Разовое посещение</h3>
-                        <p class="tariffs-description">Пробная тренировка</p>
+                        <h3 class="tariffs-name color-one">Start</h3>
+                        <p class="tariffs-description ">Пробная тренировка</p>
                         <p class="tariffs-price color-one">55 000 сум</p>
                         <button class="tariffs-button btn bgc-one">Выбрать</button>
                     </div>
                     <div class="tariffs-item bgc-four">
-                        <h3 class="tariffs-name color-two">Минимальный пакет</h3>
+                        <h3 class="tariffs-name color-two">Basic</h3>
                         <p class="tariffs-description">8 занятий</p>
                         <p class="tariffs-price color-two">350 000 сум</p>
                         <button class="tariffs-button btn bgc-two">Выбрать</button>
                     </div>
                     <div class="tariffs-item bgc-four">
-                        <h3 class="tariffs-name color-one">Стандартный пакет</h3>
+                        <h3 class="tariffs-name color-one">Standard</h3>
                         <p class="tariffs-description">12 занятий</p>
                         <p class="tariffs-price color-one">450 000 сум</p>
                         <button class="tariffs-button btn bgc-one">Выбрать</button>
                     </div>
                     <div class="tariffs-item bgc-four">
-                        <h3 class="tariffs-name color-two">Премиум пакет</h3>
+                        <h3 class="tariffs-name color-two">Premium</h3>
                         <p class="tariffs-description">36 занятий</p>
                         <p class="tariffs-price color-two">1 100 000 сум</p>
                         <button class="tariffs-button btn bgc-two">Выбрать</button>
@@ -139,7 +142,7 @@
             <div class="schedule-container">
                 <h2 class="schedule-title">Расписание занятий</h2>
                 <div class="schedule-list">
-                    <div class="schedule-item bgc-four">
+                    <div class="schedule-item bgc-four bgf-four">
                         <h3 class="schedule-item-name">Понедельник | Среда | Пятница</h3>
                         <ul class="schedule-item-time">
                             <li class="schedule-description">17:00-18:00 Фитнес</li>
@@ -147,7 +150,7 @@
                             <li class="schedule-description">19:00-20:00 Фитнес</li>
                         </ul>
                     </div>
-                    <div class="schedule-item bgc-four">
+                    <div class="schedule-item bgc-four bgf-three">
                         <h3 class="schedule-item-name">Вторник | Четверг | Суббота</h3>
                         <ul class="schedule-item-time">
                             <li class="schedule-description">10:30-11:30 Фитнес</li>
@@ -162,55 +165,50 @@
     <section class="team" id="team">
         <div class="container">
             <div class="team-container ">
-
                 <div class="team-info">
-                    <h2 class="team-title">Обзор клуба и наша команда</h2>
-
+                    <h2 class="team-title">Обзор студии и наша команда</h2>
                     <p class="team-description">
-                        Приглашаем в наш фитнес-клуб, где каждый желающий может привести себя в
-                        спортивную форму
-                        самостоятельно или с помощью наших высококвалифицированных тренеров
+                        Наша фитнес-студия занимает пространство общей площадью около 200 кв.м. Мы предлагаем полностью
+                        оборудованный зал для групповых тренировок. В нашей команде опытные профессионалы, которые
+                        помогут вам эффективно достичь поставленных целей!
                     </p>
                 </div>
-                <div class="team-panorama bgc-four">
+                <div class="team-panorama">
                     <a href="./Panorams/index.html">
-                        <img class="panorama" src="./img/vr.jpg" alt="VR">
+                        <img class="panorama" src="./img/360.jpg" alt="VR">
                     </a>
                 </div>
             </div>
             <div class="team-trainers">
-                <div class="trainer-card bgc-four">
+                <div class="trainer-card bgc-four bgf-four">
                     <img class="trainer-photo" src="./img/trainer1.jpg" alt="Тренер 1">
                     <h3 class="trainer-name">Рушана</h3>
                     <p class="trainer-description">
-                        Сертифицированный тренер с опытом работы 5 лет. Специализация:
-                        силовые тренировки и функциональный тренинг.
+                        Персональный тренер и тренер групповых направлений по фитнесу
                     </p>
                     <a class="trainer-details color-one" href="">Подробнее ></a>
                 </div>
-                <div class="trainer-card bgc-four">
+                <div class="trainer-card bgc-four bgf-three">
                     <img class="trainer-photo" src="./img/trainer2.jpg" alt="Тренер 2">
                     <h3 class="trainer-name">Гавхар</h3>
                     <p class="trainer-description">
-                        Сертифицированный тренер с опытом работы 5 лет. Специализация:
-                        силовые тренировки и функциональный тренинг.
+                        Тренер по гимнастике
                     </p>
                     <a class="trainer-details color-one" href="">Подробнее ></a>
                 </div>
-                <div class="trainer-card bgc-four">
+                <div class="trainer-card bgc-four bgf-four">
                     <img class="trainer-photo" src="./img/trainer3.jpg" alt="Тренер 3">
-                    <h3 class="trainer-name">Марина</h3>
+                    <h3 class="trainer-name">Тренер</h3>
                     <p class="trainer-description">
-                        Сертифицированный тренер с опытом работы 5 лет.
+                        Идёт поиск тренера по гимнастике
                     </p>
                     <a class="trainer-details color-one" href="">Подробнее ></a>
                 </div>
-                <div class="trainer-card bgc-four">
+                <div class="trainer-card bgc-four bgf-three">
                     <img class="trainer-photo" src="./img/trainer4.jpg" alt="Тренер 4">
-                    <h3 class="trainer-name">Ольга</h3>
+                    <h3 class="trainer-name">Тренер</h3>
                     <p class="trainer-description">
-                        Сертифицированный тренер с опытом работы 5 лет. Специализация:
-                        силовые тренировки и функциональный тренинг.
+                        Идёт поиск тренера по групповым направлениям и персональный тренер
                     </p>
                     <a class="trainer-details color-one" href="">Подробнее ></a>
                 </div>
@@ -218,30 +216,36 @@
         </div>
     </section>
 
-    <section class="news" id="news">
+    <section class="promotions" id="promotions">
         <div class="container">
-            <div class="news-container">
-                <h2 class="news-title">Новости</h2>
-                <div class="news-list">
-                    <div class="news-item bgc-four">
-                        <h3 class="news-item-title">Скидки</h3>
-                        <img class="news-item-img" src="./img/intro_img1.JPG" alt="Новость 1">
-                        <p class="news-item-description">Скидка на гимнастику</p>
-                        <p class="news-item-date">10.01.2025</p>
+            <div class="promotions-container">
+                <h2 class="promotions-title">Акции</h2>
+                <div class="promotions-list">
+                    <div class="promotions-item bgc-four">
+                        <h3 class="promotions-item-title">Скидки</h3>
+                        <img class="promotions-item-img" src="./img/sale.jpg" alt="Новость 1">
+                        <p class="promotions-item-description">Скидка на абонемент по гимнастике для второго ребёнка из
+                            одной семьи - 25% (100.000 сум)</p>
+                        <a class="promotions-item-details color-two" href="">Подробнее ></a>
                     </div>
-                    <div class="news-item bgc-four">
-                        <h3 class="news-item-title">Акции</h3>
-                        <img class="news-item-img" src="./img/intro_img1.JPG" alt="Новость 2">
-                        <p class="news-item-description">Акция купи абонемент и получишь Скидка на гимнастику</p>
-                        <p class="news-item-date">11.01.2025</p>
+                    <div class="promotions-item bgc-four">
+                        <h3 class="promotions-item-title">Акция</h3>
+                        <img class="promotions-item-img" src="./img/sale2.jpg" alt="Новость 2">
+                        <p class="promotions-item-description">Приведи подругу, которая купит абонемент Standard и
+                            получи скидку в 50.000 сум при покупке абонемента на следующий месяц</p>
+                        <a class="promotions-item-details color-two" href="">Подробнее ></a>
                     </div>
-                    <div class="news-item bgc-four">
-                        <h3 class="news-item-title">День открытых дверей</h3>
-                        <img class="news-item-img" src="./img/intro_img1.JPG" alt="Новость 3">
-                        <p class="news-item-description">День открытых дверей для всех желающих</p>
-                        <p class="news-item-date">12.01.2025</p>
+                    <div class="promotions-item bgc-four">
+                        <h3 class="promotions-item-title">День открытых дверей</h3>
+                        <img class="promotions-item-img" src="./img/sale3.jpg" alt="Новость 3">
+                        <p class="promotions-item-description">День открытых дверей для всех желающих (дату проведения
+                            уточнять у администрации)</p>
+                        <a class="promotions-item-details color-two" href="">Подробнее ></a>
                     </div>
                 </div>
+                <!-- Кнопки для мобильного слайдера -->
+                <button class="prev">‹</button>
+                <button class="next">›</button>
             </div>
         </div>
     </section>
@@ -252,30 +256,44 @@
                 <h2 class="gallery-title">Галерея</h2>
                 <div class="gallery-grid">
                     <a class="gallery-image-link" href="">
-                        <img class="gallery-image" src="./img/intro_img1.JPG" alt="Фото 1">
+                        <img class="gallery-image" src="./img/gallery1.JPG" alt="Фото 1">
                     </a>
                     <a class="gallery-image-link" href="">
-                        <img class="gallery-image" src="./img/intro_img2.JPG" alt="Фото 2">
+                        <img class="gallery-image" src="./img/gallery2.JPG" alt="Фото 2">
                     </a>
                     <a class="gallery-image-link" href="">
-                        <img class="gallery-image" src="./img/intro_img3.JPG" alt="Фото 3">
+                        <img class="gallery-image" src="./img/gallery3.JPG" alt="Фото 3">
                     </a>
                     <a class="gallery-image-link" href="">
-                        <img class="gallery-image" src="./img/intro_img4.JPG" alt="Фото 4">
+                        <img class="gallery-image" src="./img/gallery4.JPG" alt="Фото 4">
                     </a>
                     <a class="gallery-image-link" href="">
-                        <img class="gallery-image" src="./img/intro_img1.JPG" alt="Фото 5">
+                        <img class="gallery-image" src="./img/gallery5.JPG" alt="Фото 5">
                     </a>
                     <a class="gallery-image-link" href="">
-                        <img class="gallery-image" src="./img/intro_img1.JPG" alt="Фото 6">
+                        <img class="gallery-image" src="./img/gallery6.JPG" alt="Фото 6">
                     </a>
                     <a href="">
-                        <img class="gallery-image" src="./img/intro_img1.JPG" alt="Фото 7">
+                        <img class="gallery-image" src="./img/gallery7.JPG" alt="Фото 7">
                     </a>
                     <a href="">
-                        <img class="gallery-image" src="./img/intro_img1.JPG" alt="Фото 8">
+                        <img class="gallery-image" src="./img/gallery8.JPG" alt="Фото 8">
                     </a>
-
+                </div>
+                <!-- Слайдер для мобильной версии -->
+                <div class="slider-container">
+                    <div class="slider">
+                        <img class="gallery-image" src="./img/gallery1.JPG" alt="Фото 1">
+                        <img class="gallery-image" src="./img/gallery2.JPG" alt="Фото 2">
+                        <img class="gallery-image" src="./img/gallery3.JPG" alt="Фото 3">
+                        <img class="gallery-image" src="./img/gallery4.JPG" alt="Фото 4">
+                        <img class="gallery-image" src="./img/gallery5.JPG" alt="Фото 5">
+                        <img class="gallery-image" src="./img/gallery6.JPG" alt="Фото 6">
+                        <img class="gallery-image" src="./img/gallery7.JPG" alt="Фото 7">
+                        <img class="gallery-image" src="./img/gallery8.JPG" alt="Фото 8">
+                    </div>
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
                 </div>
             </div>
         </div>
@@ -288,7 +306,7 @@
                     <h2 class="contacts-title">Контакты</h2>
                     <p class="contacts-list">
                         <img class="contacts-img" src="./img/icon-address.png" alt="Address">
-                        <span>г.Ташкент, Юнусабад 4 квартал, дом 83</span>
+                        <span>г. Ташкент, Юнусабад 4 квартал, дом 83</span>
                     </p>
                     <p class="contacts-list">
                         <img class="contacts-img" src="./img/icon-phone2.png" alt="Phone">
@@ -304,7 +322,6 @@
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1497.2138818412561!2d69.27874760879963!3d41.364790136211916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8d426c50687f%3A0x2d055ee465509e36!2sLADY%20FIT%20STUDIO!5e0!3m2!1sru!2s!4v1738132394778!5m2!1sru!2s"
                         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
-                    
                 </div>
             </div>
         </div>
@@ -315,11 +332,11 @@
             <div class="footer-container">
                 <div class="footer-brand">
                     <div class="footer-brand-list">
-                        <a href="#" class="footer-logo color-four">LADY FIT STUDIO</a>
-                        <p class="footer-description">Фитнес для женщин - ваш путь к здоровью и гармонии.</p>
+                        <a class="footer-logo color-four" id="logo" href="#">LADY FIT STUDIO</a>
+                        <p class="footer-description">Фитнес – движение к лучшей версии себя!</p>
                     </div>
                     <div class="footer-worktime">
-                        <h4>Время работы:</h4>
+                        <h4>Режим работы:</h4>
                         <span>Ежедневно: 10:00 - 20:00</span>
                         <span>Выходной: Воскресенье</span>
                     </div>
@@ -341,6 +358,7 @@
                             <img class="social-img" src="./img/icon-youtube.png" alt="YouTube">
                         </a>
                     </div>
+                    <p><img class="qr-code" src="./img/qr-code.PNG" alt=""></p>
                 </div>
                 <div class="footer-locations">
                     <h4 class="footer-locations-title">Локации на всех картах</h4>
@@ -357,12 +375,11 @@
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
